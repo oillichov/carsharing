@@ -104,12 +104,6 @@ li:hover{
     background-color: #FFFFFF33;
 }
 
-.buttons {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
 
 button {
     display: inline-block;
@@ -123,7 +117,7 @@ button {
 }
 
 
-.greeting {
+.main__section {
     width: 100vw;
     max-height: 100vh;
     margin-top: 30vh;
@@ -150,7 +144,7 @@ button {
 }
 
 
-.description {
+.main__description {
     text-align: center;
     font-family: var(--primary-font);
     font-weight: bold;
